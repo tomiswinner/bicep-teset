@@ -21,6 +21,10 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
       - name: Build
         run: go build handler.go 
+      - name: Log in to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Deploy
         uses: azure/functions-action@v1
         with:
