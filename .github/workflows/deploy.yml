@@ -1,5 +1,9 @@
 name: Deploy Go Azure Function to function app
 
+on:
+  push:
+    branches:
+      - main
 
 env:
   AZURE_FUNCTIONAPP_NAME: "tak-testfunc3"
