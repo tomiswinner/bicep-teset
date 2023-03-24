@@ -21,18 +21,18 @@ var server = os.Getenv("SQLSERVER")
 var port = 1433
 var user = os.Getenv("SQLUSER")
 var password = os.Getenv("SQLPASSWORD")
-var database = "tak-testDBRGDB"
+var database = os.Getenv("SQLDATABASE")
 
 func main() {
     r := gin.Default()
     r.GET("/api/message1", func(c *gin.Context) {
-        var ping = dbconnect()
+        var ping = dbconnect() + "1"
         c.JSON(200, gin.H{
             "message1": ping,
         })
     })
     r.GET("/api/message2", func(c *gin.Context) {
-        var pong = dbconnect()
+        var pong = dbconnect() + "2"
         c.JSON(200, gin.H{
             "message2": pong,
         })
