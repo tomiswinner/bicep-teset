@@ -1,0 +1,9 @@
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/bin/Debug/yo_kabu_DB_stg.dacpac
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/bin/Debug/yo_kabu_DB_stg.dll
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/bin/Debug/yo_kabu_DB_stg.pdb
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/obj/Debug/Model.xml
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/obj/Debug/refactor.xml
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/obj/Debug/postdeploy.sql
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/obj/Debug/predeploy.sql
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/obj/Debug/yo_kabu_DB_stg.dll
+/Users/tak/MMM/bicep-teset/db/yo_kabu_DB_stg/obj/Debug/yo_kabu_DB_stg.pdb

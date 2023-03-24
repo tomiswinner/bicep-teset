@@ -1,0 +1,9 @@
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/bin/Debug/tak-testprj.dacpac
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/bin/Debug/tak-testprj.dll
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/bin/Debug/tak-testprj.pdb
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/obj/Debug/Model.xml
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/obj/Debug/refactor.xml
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/obj/Debug/postdeploy.sql
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/obj/Debug/predeploy.sql
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/obj/Debug/tak-testprj.dll
+/Users/tak/MMM/bicep-teset/db/aaa/tak-testprj/obj/Debug/tak-testprj.pdb
