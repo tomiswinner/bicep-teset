@@ -37,6 +37,12 @@ func main() {
             "message2": pong,
         })
     })
+		r.POST("/api/slacktest", func(c *gin.Context) {
+			var req map[string]string
+			c.BindJSON(&req)
+			c.String(http.StatusOK, req["challenge"])
+		})
+
 
     port := os.Getenv("FUNCTIONS_CUSTOMHANDLER_PORT")
     r.Run(":" + port)
