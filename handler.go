@@ -40,7 +40,7 @@ func main() {
 		r.POST("/api/slacktest", func(c *gin.Context) {
 			var req map[string]string
 			c.BindJSON(&req)
-			c.String(http.StatusOK, req["challenge"])
+			c.String(200, req["challenge"])
 		})
 
 
