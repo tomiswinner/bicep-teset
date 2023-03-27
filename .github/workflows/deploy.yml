@@ -16,7 +16,7 @@ env:
   GO_VERSION: "1.19"
   GO_ARCH: "amd64"
   GOOS: "linux" 
-  SLOT_NAME: ${{ github.ref == 'refs/heads/main' && 'tak-testfunc3' || 'tak-testfunc3-staging' }}
+  SLOT_NAME: ${{ github.ref == 'refs/heads/main' && '' || 'tak-testfunc3-staging' }}
 
 jobs:
   build_and_deploy:
