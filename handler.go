@@ -26,7 +26,7 @@ var database = os.Getenv("SQLDATABASE")
 func main() {
     r := gin.Default()
     r.GET("/api/message1", func(c *gin.Context) {
-        var ping = dbconnect() + "1"
+        var ping = "1"
         c.JSON(200, gin.H{
             "message1": ping,
         })
